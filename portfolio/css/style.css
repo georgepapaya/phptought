@@ -3,6 +3,7 @@
   font-size: medium;
   padding: 0;
   margin: 0;  
+  box-sizing: border-box;
 }
 
 h1{
@@ -36,4 +37,30 @@ p{
 
     width: 400px;
    
+}
+#specilties{
+    padding-left: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#specilties li{
+    padding: 10px;
+    display: -moz-stack;
+    list-style: none;
+}
+
+.row:after {
+        content: "";
+        display: table;
+        clear: both;
+      
+}
+.column{
+    float:left;
+    padding: 10px;
+    width: 35%;
+   /* height: 45%;*/
+}
+.column img{
+    margin-top: 15px;
 }
